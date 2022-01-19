@@ -75,7 +75,7 @@ li a {
 
 .home .intro h1,
 p {
-    color: #fff;
+    color: rgb(225, 230, 255);
     font-weight: 700;
 }
 
@@ -84,7 +84,7 @@ p {
     width: 200px;
     border-radius: 50%;
     display: inline-block;
-    border: 8px solid #fff;
+    border: 8px solid rgb(225, 230, 255);
 }
 
 .home a {
