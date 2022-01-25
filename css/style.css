@@ -194,3 +194,57 @@ textarea {
     background-color: rgb(237, 239, 250);
     color: green;
 }
+
+
+/*sobre*/
+
+#sobre {
+    display: grid;
+    background-color: rgba(73, 73, 73, 0.897);
+}
+
+.texto {
+    background: #bcb8f528;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.sobre h2 {
+    padding-top: 100px;
+    text-align: center;
+    font-weight: bold;
+    color: #bcb8f5;
+}
+
+.sobre p {
+    color: #fff;
+}
+
+.sobre h3 {
+    color: #bcb8f5;
+    margin-bottom: 40px;
+}
+
+.sobre .texto {
+    margin: 100px;
+}
+
+.sobre .btn {
+    margin-left: 100px;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 12px 35px;
+    color: #fff;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+    white-space: nowrap;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: #bcb8f541;
+}
+
+.sobre .btn:hover {
+    background-color: #fff;
+    color: #bcb8f5;
+}
