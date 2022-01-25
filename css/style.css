@@ -147,7 +147,7 @@ p {
 
 .container form {
     display: grid;
-    background: rgba(238, 238, 238, 0.5);
+    background: rgba(238, 238, 238, 0.288);
     border-radius: 20px;
     padding: 40px 10px 10px;
 }
