@@ -147,6 +147,19 @@ p {
 
 .container form {
     display: grid;
+    background: rgba(238, 238, 238, 0.5);
+    border-radius: 20px;
+    padding: 40px 10px 10px;
+}
+
+.container form label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -25px;
+    color: #eee;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 .container form input,
@@ -154,9 +167,9 @@ textarea {
     padding: 12px;
     margin-top: 10px;
     width: 300px;
-    border-radius: 10px;
+    border-radius: 20px;
     border: none;
-    background: rgba(244, 245, 253, 0.836);
+    background: rgb(244, 245, 253);
     font-size: 15px;
 }
 
